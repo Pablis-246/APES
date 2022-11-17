@@ -34,7 +34,7 @@ Partial Class Form2
         '
         Me.btnEmitirFactura.Location = New System.Drawing.Point(173, 182)
         Me.btnEmitirFactura.Name = "btnEmitirFactura"
-        Me.btnEmitirFactura.Size = New System.Drawing.Size(95, 35)
+        Me.btnEmitirFactura.Size = New System.Drawing.Size(104, 41)
         Me.btnEmitirFactura.TabIndex = 11
         Me.btnEmitirFactura.Text = "Emitir factura"
         Me.btnEmitirFactura.UseVisualStyleBackColor = True
@@ -43,7 +43,7 @@ Partial Class Form2
         '
         Me.btnVenderProductos.Location = New System.Drawing.Point(53, 182)
         Me.btnVenderProductos.Name = "btnVenderProductos"
-        Me.btnVenderProductos.Size = New System.Drawing.Size(95, 35)
+        Me.btnVenderProductos.Size = New System.Drawing.Size(104, 41)
         Me.btnVenderProductos.TabIndex = 10
         Me.btnVenderProductos.Text = "Vender Productos"
         Me.btnVenderProductos.UseVisualStyleBackColor = True
@@ -52,7 +52,7 @@ Partial Class Form2
         '
         Me.btnSacarPresupuesto.Location = New System.Drawing.Point(173, 131)
         Me.btnSacarPresupuesto.Name = "btnSacarPresupuesto"
-        Me.btnSacarPresupuesto.Size = New System.Drawing.Size(95, 35)
+        Me.btnSacarPresupuesto.Size = New System.Drawing.Size(104, 41)
         Me.btnSacarPresupuesto.TabIndex = 9
         Me.btnSacarPresupuesto.Text = "Sacar presupuesto"
         Me.btnSacarPresupuesto.UseVisualStyleBackColor = True
@@ -61,7 +61,7 @@ Partial Class Form2
         '
         Me.btnVerProductos.Location = New System.Drawing.Point(53, 131)
         Me.btnVerProductos.Name = "btnVerProductos"
-        Me.btnVerProductos.Size = New System.Drawing.Size(95, 35)
+        Me.btnVerProductos.Size = New System.Drawing.Size(104, 41)
         Me.btnVerProductos.TabIndex = 8
         Me.btnVerProductos.Text = "Ver productos de deposito"
         Me.btnVerProductos.UseVisualStyleBackColor = True
@@ -78,7 +78,7 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 45)
+        Me.Label2.Location = New System.Drawing.Point(50, 54)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(39, 13)
         Me.Label2.TabIndex = 6
@@ -88,7 +88,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(390, 394)
+        Me.ClientSize = New System.Drawing.Size(347, 306)
         Me.Controls.Add(Me.btnEmitirFactura)
         Me.Controls.Add(Me.btnVenderProductos)
         Me.Controls.Add(Me.btnSacarPresupuesto)

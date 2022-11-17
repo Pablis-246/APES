@@ -100,7 +100,7 @@ Partial Class Form1
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(59, 13)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "USUARIO;"
+        Me.Label3.Text = "USUARIO:"
         '
         'Form1
         '

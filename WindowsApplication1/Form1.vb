@@ -8,9 +8,9 @@
 
         If (usuario = "admin") And (contraseña = "1234") Then
             Form2.Show()
+            Me.Hide()
         Else
             MsgBox("Usuario o contraseña erronea, volver a ingresar")
         End If
     End Sub
-
 End Class
