@@ -22,46 +22,33 @@ Partial Class Form2
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnEmitirFactura = New System.Windows.Forms.Button()
         Me.btnVenderProductos = New System.Windows.Forms.Button()
-        Me.btnSacarPresupuesto = New System.Windows.Forms.Button()
         Me.btnVerProductos = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnAgregarClientes = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'btnEmitirFactura
-        '
-        Me.btnEmitirFactura.Location = New System.Drawing.Point(173, 182)
-        Me.btnEmitirFactura.Name = "btnEmitirFactura"
-        Me.btnEmitirFactura.Size = New System.Drawing.Size(104, 41)
-        Me.btnEmitirFactura.TabIndex = 11
-        Me.btnEmitirFactura.Text = "Emitir factura"
-        Me.btnEmitirFactura.UseVisualStyleBackColor = True
         '
         'btnVenderProductos
         '
-        Me.btnVenderProductos.Location = New System.Drawing.Point(53, 182)
+        Me.btnVenderProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVenderProductos.Location = New System.Drawing.Point(208, 260)
         Me.btnVenderProductos.Name = "btnVenderProductos"
-        Me.btnVenderProductos.Size = New System.Drawing.Size(104, 41)
-        Me.btnVenderProductos.TabIndex = 10
+        Me.btnVenderProductos.Size = New System.Drawing.Size(127, 53)
+        Me.btnVenderProductos.TabIndex = 9
         Me.btnVenderProductos.Text = "Vender Productos"
         Me.btnVenderProductos.UseVisualStyleBackColor = True
         '
-        'btnSacarPresupuesto
-        '
-        Me.btnSacarPresupuesto.Location = New System.Drawing.Point(173, 131)
-        Me.btnSacarPresupuesto.Name = "btnSacarPresupuesto"
-        Me.btnSacarPresupuesto.Size = New System.Drawing.Size(104, 41)
-        Me.btnSacarPresupuesto.TabIndex = 9
-        Me.btnSacarPresupuesto.Text = "Sacar presupuesto"
-        Me.btnSacarPresupuesto.UseVisualStyleBackColor = True
-        '
         'btnVerProductos
         '
-        Me.btnVerProductos.Location = New System.Drawing.Point(53, 131)
+        Me.btnVerProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVerProductos.Location = New System.Drawing.Point(38, 260)
         Me.btnVerProductos.Name = "btnVerProductos"
-        Me.btnVerProductos.Size = New System.Drawing.Size(104, 41)
+        Me.btnVerProductos.Size = New System.Drawing.Size(127, 53)
         Me.btnVerProductos.TabIndex = 8
         Me.btnVerProductos.Text = "Ver productos de deposito"
         Me.btnVerProductos.UseVisualStyleBackColor = True
@@ -69,42 +56,88 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(50, 92)
+        Me.Label3.Font = New System.Drawing.Font("Lucida Fax", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 208)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(162, 13)
+        Me.Label3.Size = New System.Drawing.Size(265, 18)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Que operaciones desea realizar?"
+        Me.Label3.Text = "Que operacion desea realizar?"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 54)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(181, 55)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.Size = New System.Drawing.Size(97, 20)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Bienvenida"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(43, 153)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(82, 30)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "APES"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(181, 95)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(142, 20)
+        Me.Label4.TabIndex = 14
+        Me.Label4.Text = "al sistema APES"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.WindowsApplication1.My.Resources.Resources.logo1
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 10)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(147, 140)
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
+        '
+        'btnAgregarClientes
+        '
+        Me.btnAgregarClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgregarClientes.Location = New System.Drawing.Point(122, 319)
+        Me.btnAgregarClientes.Name = "btnAgregarClientes"
+        Me.btnAgregarClientes.Size = New System.Drawing.Size(127, 53)
+        Me.btnAgregarClientes.TabIndex = 15
+        Me.btnAgregarClientes.Text = "Agregar cliente"
+        Me.btnAgregarClientes.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(347, 306)
-        Me.Controls.Add(Me.btnEmitirFactura)
+        Me.ClientSize = New System.Drawing.Size(428, 424)
+        Me.Controls.Add(Me.btnAgregarClientes)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnVenderProductos)
-        Me.Controls.Add(Me.btnSacarPresupuesto)
         Me.Controls.Add(Me.btnVerProductos)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form2"
         Me.Text = "Form2"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnEmitirFactura As System.Windows.Forms.Button
     Friend WithEvents btnVenderProductos As System.Windows.Forms.Button
-    Friend WithEvents btnSacarPresupuesto As System.Windows.Forms.Button
     Friend WithEvents btnVerProductos As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents btnAgregarClientes As Button
 End Class

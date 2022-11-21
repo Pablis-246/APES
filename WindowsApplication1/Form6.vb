@@ -1,5 +1,5 @@
-﻿Public Class Form3
-    Private Sub Form3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+﻿Public Class Form6
+    Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
@@ -9,7 +9,7 @@
     End Sub
 
     Private Sub btnAtras_Click(sender As Object, e As EventArgs) Handles btnAtras.Click
-        Form2.Show()
+        Form4.Show()
         Me.Close()
     End Sub
 End Class

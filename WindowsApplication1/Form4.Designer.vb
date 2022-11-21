@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form4
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,144 +20,112 @@ Partial Class Form4
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.btnSacarPresupuesto = New System.Windows.Forms.Button()
+        Me.btnEmitirFactura = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.btnAtras = New System.Windows.Forms.Button()
+        Me.btnVolverInicio = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(218, 25)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(163, 32)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(66, 13)
+        Me.Label1.Size = New System.Drawing.Size(175, 29)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Presupuesto"
+        Me.Label1.Text = "Sector Ventas"
         '
-        'ComboBox1
+        'btnSacarPresupuesto
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(92, 133)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(101, 21)
-        Me.ComboBox1.TabIndex = 1
+        Me.btnSacarPresupuesto.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSacarPresupuesto.Location = New System.Drawing.Point(280, 110)
+        Me.btnSacarPresupuesto.Name = "btnSacarPresupuesto"
+        Me.btnSacarPresupuesto.Size = New System.Drawing.Size(160, 55)
+        Me.btnSacarPresupuesto.TabIndex = 1
+        Me.btnSacarPresupuesto.Text = "Sacar presupuesto"
+        Me.btnSacarPresupuesto.UseVisualStyleBackColor = True
+        '
+        'btnEmitirFactura
+        '
+        Me.btnEmitirFactura.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEmitirFactura.Location = New System.Drawing.Point(280, 185)
+        Me.btnEmitirFactura.Name = "btnEmitirFactura"
+        Me.btnEmitirFactura.Size = New System.Drawing.Size(160, 55)
+        Me.btnEmitirFactura.TabIndex = 2
+        Me.btnEmitirFactura.Text = "Emitir factura"
+        Me.btnEmitirFactura.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.WindowsApplication1.My.Resources.Resources.logo1
+        Me.PictureBox1.Location = New System.Drawing.Point(37, 83)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(150, 139)
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(28, 136)
+        Me.Label2.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(61, 240)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(58, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Productos:"
+        Me.Label2.Size = New System.Drawing.Size(82, 30)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "APES"
         '
-        'Label3
+        'btnAtras
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(242, 136)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(93, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Precio por unidad:"
+        Me.btnAtras.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.btnAtras.Location = New System.Drawing.Point(112, 307)
+        Me.btnAtras.Name = "btnAtras"
+        Me.btnAtras.Size = New System.Drawing.Size(69, 52)
+        Me.btnAtras.TabIndex = 32
+        Me.btnAtras.Text = "ATRAS"
+        Me.btnAtras.UseVisualStyleBackColor = True
         '
-        'Label4
+        'btnVolverInicio
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(28, 225)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 13)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Precio Final: "
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(19, 69)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(50, 13)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Nombre: "
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(183, 69)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(47, 13)
-        Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Apellido:"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(353, 69)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 13)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Telefono:"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(75, 66)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(79, 20)
-        Me.TextBox1.TabIndex = 8
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(236, 66)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(79, 20)
-        Me.TextBox2.TabIndex = 9
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(408, 66)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(79, 20)
-        Me.TextBox3.TabIndex = 10
+        Me.btnVolverInicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVolverInicio.Location = New System.Drawing.Point(37, 307)
+        Me.btnVolverInicio.Name = "btnVolverInicio"
+        Me.btnVolverInicio.Size = New System.Drawing.Size(69, 52)
+        Me.btnVolverInicio.TabIndex = 31
+        Me.btnVolverInicio.Text = "Volver al inicio"
+        Me.btnVolverInicio.UseVisualStyleBackColor = True
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(540, 389)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.btnAtras)
+        Me.Controls.Add(Me.btnVolverInicio)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnEmitirFactura)
+        Me.Controls.Add(Me.btnSacarPresupuesto)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form4"
         Me.Text = "Form4"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btnSacarPresupuesto As Button
+    Friend WithEvents btnEmitirFactura As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents btnAtras As Button
+    Friend WithEvents btnVolverInicio As Button
 End Class
