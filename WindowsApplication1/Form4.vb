@@ -12,7 +12,6 @@
     Private Sub btnEmitirFactura_Click(sender As Object, e As EventArgs) Handles btnEmitirFactura.Click
         Form6.Show()
         Me.Close()
-
     End Sub
     Private Sub btnVolverInicio_Click(sender As Object, e As EventArgs) Handles btnVolverInicio.Click
         Form2.Show()

@@ -1,6 +1,6 @@
 ﻿Public Class Form2
     Private Sub Form2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Label2.Text = "Bienvenido " + Form1.txtUsuario.Text
+        Label2.Text = Form1.txtUsuario.Text
     End Sub
 
     Private Sub btnVerProductos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnVerProductos.Click

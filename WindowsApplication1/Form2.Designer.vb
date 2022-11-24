@@ -30,13 +30,14 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnAgregarClientes = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnVenderProductos
         '
         Me.btnVenderProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnVenderProductos.Location = New System.Drawing.Point(208, 260)
+        Me.btnVenderProductos.Location = New System.Drawing.Point(196, 249)
         Me.btnVenderProductos.Name = "btnVenderProductos"
         Me.btnVenderProductos.Size = New System.Drawing.Size(127, 53)
         Me.btnVenderProductos.TabIndex = 9
@@ -46,7 +47,7 @@ Partial Class Form2
         'btnVerProductos
         '
         Me.btnVerProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnVerProductos.Location = New System.Drawing.Point(38, 260)
+        Me.btnVerProductos.Location = New System.Drawing.Point(48, 249)
         Me.btnVerProductos.Name = "btnVerProductos"
         Me.btnVerProductos.Size = New System.Drawing.Size(127, 53)
         Me.btnVerProductos.TabIndex = 8
@@ -57,7 +58,7 @@ Partial Class Form2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Lucida Fax", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(12, 208)
+        Me.Label3.Location = New System.Drawing.Point(9, 217)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(265, 18)
         Me.Label3.TabIndex = 7
@@ -66,12 +67,12 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(181, 55)
+        Me.Label2.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(289, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 20)
+        Me.Label2.Size = New System.Drawing.Size(16, 21)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Bienvenida"
+        Me.Label2.Text = "."
         '
         'Label1
         '
@@ -87,7 +88,7 @@ Partial Class Form2
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(181, 95)
+        Me.Label4.Location = New System.Drawing.Point(176, 96)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(142, 20)
         Me.Label4.TabIndex = 14
@@ -105,18 +106,29 @@ Partial Class Form2
         'btnAgregarClientes
         '
         Me.btnAgregarClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarClientes.Location = New System.Drawing.Point(122, 319)
+        Me.btnAgregarClientes.Location = New System.Drawing.Point(124, 308)
         Me.btnAgregarClientes.Name = "btnAgregarClientes"
         Me.btnAgregarClientes.Size = New System.Drawing.Size(127, 53)
         Me.btnAgregarClientes.TabIndex = 15
-        Me.btnAgregarClientes.Text = "Agregar cliente"
+        Me.btnAgregarClientes.Text = "Insertar cliente"
         Me.btnAgregarClientes.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Location = New System.Drawing.Point(176, 56)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(97, 20)
+        Me.Label5.TabIndex = 16
+        Me.Label5.Text = "Bienvenido"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(428, 424)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.btnAgregarClientes)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
@@ -140,4 +152,5 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents btnAgregarClientes As Button
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

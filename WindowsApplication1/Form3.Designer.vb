@@ -44,6 +44,7 @@ Partial Class Form3
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"Pantalon Friza", "Short Jean", "Campera con Capucha", "Buzo Friza"})
         Me.ListBox1.Location = New System.Drawing.Point(28, 103)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(143, 186)
@@ -52,6 +53,7 @@ Partial Class Form3
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
+        Me.ListBox2.Items.AddRange(New Object() {"Cargo Pantalon", "Chaleco Inflable", "Camisa Cuadrille", "Saco Blazer"})
         Me.ListBox2.Location = New System.Drawing.Point(229, 103)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(143, 186)
@@ -61,7 +63,7 @@ Partial Class Form3
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(55, 73)
+        Me.Label2.Location = New System.Drawing.Point(53, 73)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 20)
         Me.Label2.TabIndex = 3
@@ -101,7 +103,7 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(400, 392)
+        Me.ClientSize = New System.Drawing.Size(410, 392)
         Me.Controls.Add(Me.btnAtras)
         Me.Controls.Add(Me.btnVolverInicio)
         Me.Controls.Add(Me.Label3)
