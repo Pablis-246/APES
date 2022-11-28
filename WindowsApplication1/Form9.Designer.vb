@@ -27,6 +27,10 @@ Partial Class Form9
         Me.btnAgregarClientes = New System.Windows.Forms.Button()
         Me.btnAtras = New System.Windows.Forms.Button()
         Me.btnVolverInicio = New System.Windows.Forms.Button()
+        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtCodCliente = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -61,7 +65,7 @@ Partial Class Form9
         'btnAtras
         '
         Me.btnAtras.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.btnAtras.Location = New System.Drawing.Point(175, 90)
+        Me.btnAtras.Location = New System.Drawing.Point(648, 184)
         Me.btnAtras.Name = "btnAtras"
         Me.btnAtras.Size = New System.Drawing.Size(70, 36)
         Me.btnAtras.TabIndex = 58
@@ -71,18 +75,56 @@ Partial Class Form9
         'btnVolverInicio
         '
         Me.btnVolverInicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnVolverInicio.Location = New System.Drawing.Point(58, 90)
+        Me.btnVolverInicio.Location = New System.Drawing.Point(607, 142)
         Me.btnVolverInicio.Name = "btnVolverInicio"
         Me.btnVolverInicio.Size = New System.Drawing.Size(111, 36)
         Me.btnVolverInicio.TabIndex = 57
         Me.btnVolverInicio.Text = "Volver al inicio"
         Me.btnVolverInicio.UseVisualStyleBackColor = True
         '
+        'btnEliminar
+        '
+        Me.btnEliminar.Location = New System.Drawing.Point(363, 90)
+        Me.btnEliminar.Name = "btnEliminar"
+        Me.btnEliminar.Size = New System.Drawing.Size(98, 36)
+        Me.btnEliminar.TabIndex = 59
+        Me.btnEliminar.Text = "Eliminar"
+        Me.btnEliminar.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(55, 113)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(37, 13)
+        Me.Label2.TabIndex = 60
+        Me.Label2.Text = "Clave:"
+        '
+        'txtCodCliente
+        '
+        Me.txtCodCliente.Location = New System.Drawing.Point(98, 110)
+        Me.txtCodCliente.Name = "txtCodCliente"
+        Me.txtCodCliente.Size = New System.Drawing.Size(48, 20)
+        Me.txtCodCliente.TabIndex = 61
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(178, 113)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.TabIndex = 62
+        Me.Label3.Text = "Label3"
+        '
         'Form9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(685, 502)
+        Me.ClientSize = New System.Drawing.Size(797, 502)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtCodCliente)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.btnAtras)
         Me.Controls.Add(Me.btnVolverInicio)
         Me.Controls.Add(Me.btnAgregarClientes)
@@ -101,4 +143,8 @@ Partial Class Form9
     Friend WithEvents btnAgregarClientes As Button
     Friend WithEvents btnAtras As Button
     Friend WithEvents btnVolverInicio As Button
+    Friend WithEvents btnEliminar As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents txtCodCliente As TextBox
+    Friend WithEvents Label3 As Label
 End Class

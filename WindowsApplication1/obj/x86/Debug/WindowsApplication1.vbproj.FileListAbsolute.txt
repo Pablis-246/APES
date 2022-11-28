@@ -60,3 +60,4 @@ D:\Proyecto APES\APES Visual Studio\WindowsApplication1\obj\x86\Debug\WindowsApp
 D:\Proyecto APES\APES Visual Studio\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
 D:\Proyecto APES\APES Visual Studio\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
 D:\Proyecto APES\APES Visual Studio\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+D:\Proyecto APES\APES Visual Studio\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form10.resources

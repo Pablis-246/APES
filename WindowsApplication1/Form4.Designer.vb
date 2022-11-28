@@ -29,6 +29,7 @@ Partial Class Form4
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnAtras = New System.Windows.Forms.Button()
         Me.btnVolverInicio = New System.Windows.Forms.Button()
+        Me.btnVerFactura = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -101,11 +102,22 @@ Partial Class Form4
         Me.btnVolverInicio.Text = "Volver al inicio"
         Me.btnVolverInicio.UseVisualStyleBackColor = True
         '
+        'btnVerFactura
+        '
+        Me.btnVerFactura.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVerFactura.Location = New System.Drawing.Point(280, 256)
+        Me.btnVerFactura.Name = "btnVerFactura"
+        Me.btnVerFactura.Size = New System.Drawing.Size(160, 55)
+        Me.btnVerFactura.TabIndex = 33
+        Me.btnVerFactura.Text = "Ver Factura"
+        Me.btnVerFactura.UseVisualStyleBackColor = True
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(537, 387)
+        Me.Controls.Add(Me.btnVerFactura)
         Me.Controls.Add(Me.btnAtras)
         Me.Controls.Add(Me.btnVolverInicio)
         Me.Controls.Add(Me.Label2)
@@ -128,4 +140,5 @@ Partial Class Form4
     Friend WithEvents Label2 As Label
     Friend WithEvents btnAtras As Button
     Friend WithEvents btnVolverInicio As Button
+    Friend WithEvents btnVerFactura As Button
 End Class

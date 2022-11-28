@@ -39,4 +39,16 @@ Public Class conexion
         End If
     End Function
 
+    Function Eliminar(ByVal tabla, ByVal condicion)
+        conexion.Open()
+        Dim elimina As String = "delete from " + tabla + " where " + condicion
+        comando = New SqlCommand(elimina, conexion)
+        Dim i As Integer = comando.ExecuteNonQuery()
+        If (i > 0) Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
+
 End Class
