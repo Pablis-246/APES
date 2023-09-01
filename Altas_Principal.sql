@@ -80,7 +80,7 @@ INSERT INTO Cliente (CodCliente, Nombre, Apellido, DNI, Telefono) VALUES
 (1, 'Pablo', 'Laura', '43613893', 1129384612),
 (2, 'Lucas', 'Romero', '17294624', 1127395066),
 (3, 'Shande', 'Soncco', '74917482', 1193840921),
-(4, 'Lucas', 'Mendoza', '58029121', 1131326890),
+(4, 'Lucas', 'Mendoza', '58029121', 1131326890);
 
 INSERT INTO Presupuesto (CodPresupuesto, CodCliente, Nombre, NombreProducto, PrecioUnidad, Cantidad, PrecioFinal) VALUES
 (121, 1, 'Pablo', 'Pantalon Friza', 250, 2, 500),
